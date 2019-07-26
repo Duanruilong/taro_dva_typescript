@@ -1,0 +1,1 @@
+module.exports = require("../npm/core-js/library/fn/get-iterator.js");

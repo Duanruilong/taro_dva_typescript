@@ -1,0 +1,1 @@
+module.exports = require("../../npm/core-js/library/fn/object/get-own-property-descriptor.js");

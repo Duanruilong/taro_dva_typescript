@@ -1,7 +1,10 @@
+import index from "../pages/index/config"; // index的接口
+
+
+
 /** 
  * 请求公共参数
 */
-
 export const commonParame = {}
 
 /** 
@@ -9,5 +12,6 @@ export const commonParame = {}
 */
 
 export const requestConfig = {
-    loginUrl:'/api/user/wechat-auth' // 微信的登陆接口
+    loginUrl:'/api/user/wechat-auth', // 微信的登陆接口
+    ...index
 }

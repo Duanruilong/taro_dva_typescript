@@ -1,0 +1,13 @@
+<block wx:if="{{$taroCompReady}}">
+    <view class="fx-index-wrap">
+        <view class="index-topbar">New资讯</view>
+        <view class="index-data">
+            <block wx:if="{{data}}">
+                <view class="index-list" wx:key="index" wx:for="{{data}}" wx:for-item="item" wx:for-index="index">
+                    <view class="index-title">{{item.title}}</view>
+                    <view class="index-img" style="{{'background-image: url(' + item.thumbnail_pic_s + ')'}}"></view>
+                </view>
+            </block>
+        </view>
+    </view>
+</block>

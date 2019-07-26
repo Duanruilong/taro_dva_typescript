@@ -17,7 +17,7 @@ const defaults = {
 }
 
 function printBuffer(logEntry, options){
-	const {logger,colors} = defaults;
+	const {logger,colors} = options;
 	let {title,started,req,res} = logEntry;
 	
 	// Message

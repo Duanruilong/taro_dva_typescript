@@ -20,11 +20,14 @@
     "dev:alipay": "npm run build:alipay -- --watch",
     "dev:tt": "npm run build:tt -- --watch",
     "dev:h5": "npm run build:h5 -- --watch",
-    "dev:rn": "npm run build:rn -- --watch"
+    "dev:rn": "npm run build:rn -- --watch",
+    "tep": "node scripts/template",
+    "com": "node scripts/component"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "@tarojs/async-await": "^1.3.10",
     "@tarojs/components": "1.3.5",
     "@tarojs/redux": "^1.3.10",
     "@tarojs/redux-h5": "^1.3.10",

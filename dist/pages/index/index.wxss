@@ -1,0 +1,61 @@
+
+/**
+ * Component:	Variables
+ * Description:	Define all variables
+ * Time: 2018-11-13
+*/
+.fx-index-wrap {
+  width: 100%;
+  min-height: 100vh; }
+  .fx-index-wrap .index-topbar {
+    padding: 10rpx 50rpx;
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+    font-size: 30rpx; }
+  .fx-index-wrap .index-title {
+    font-size: 12rpx;
+    color: #666;
+    width: 100%; }
+  .fx-index-wrap .index-list {
+    border-bottom: 1rpx solid #eee;
+    padding-bottom: 20rpx;
+    margin: 20rpx 24rpx;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .fx-index-wrap .index-li {
+    -webkit-box-shadow: 0 4rpx 20rpx rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4rpx 20rpx rgba(0, 0, 0, 0.1);
+    margin-bottom: 50rpx;
+    border-radius: 8rpx;
+    overflow: hidden; }
+  .fx-index-wrap .index-img {
+    width: 100%;
+    height: 200rpx;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right center; }
+  .fx-index-wrap .index-info {
+    padding: 15rpx; }
+  .fx-index-wrap .index-title {
+    font-size: 30rpx;
+    font-weight: bold;
+    margin-bottom: 10rpx; }
+  .fx-index-wrap .index-des {
+    font-size: 26rpx;
+    color: #666; }
