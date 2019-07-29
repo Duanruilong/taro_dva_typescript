@@ -1,12 +1,9 @@
 /**
  * index.state 参数类型
- *
- * @export
  * @interface IndexState
  */
 export interface IndexState {
-    month:number,
-    day:number,
+
 }
 
 /**
@@ -21,12 +18,9 @@ export interface IndexProps {
 }
 
 export interface DataInterface {
-    day:number,
     des:string,
     lunar:string,
-    month:number,
-    pic:string,
+    thumbnail_pic_s:string,
     title:string,
-    year:number,
     _id:string
 }

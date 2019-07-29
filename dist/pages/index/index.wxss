@@ -1,8 +1,6 @@
 
 /**
  * Component:	Variables
- * Description:	Define all variables
- * Time: 2018-11-13
 */
 .fx-index-wrap {
   width: 100%;
@@ -14,9 +12,10 @@
     color: #333;
     font-size: 30rpx; }
   .fx-index-wrap .index-title {
-    font-size: 12rpx;
+    font-size: 28rpx;
     color: #666;
-    width: 100%; }
+    width: 100%;
+    font-weight: bold; }
   .fx-index-wrap .index-list {
     border-bottom: 1rpx solid #eee;
     padding-bottom: 20rpx;
@@ -38,24 +37,9 @@
     -webkit-align-items: center;
         -ms-flex-align: center;
             align-items: center; }
-  .fx-index-wrap .index-li {
-    -webkit-box-shadow: 0 4rpx 20rpx rgba(0, 0, 0, 0.1);
-            box-shadow: 0 4rpx 20rpx rgba(0, 0, 0, 0.1);
-    margin-bottom: 50rpx;
-    border-radius: 8rpx;
-    overflow: hidden; }
   .fx-index-wrap .index-img {
-    width: 100%;
+    width: 70%;
     height: 200rpx;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right center; }
-  .fx-index-wrap .index-info {
-    padding: 15rpx; }
-  .fx-index-wrap .index-title {
-    font-size: 30rpx;
-    font-weight: bold;
-    margin-bottom: 10rpx; }
-  .fx-index-wrap .index-des {
-    font-size: 26rpx;
-    color: #666; }
