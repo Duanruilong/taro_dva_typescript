@@ -81,15 +81,6 @@ $ taro build --type rn --watch
 
 >项目详细配置如下
 
----
-title: Taro+dva+Typescript 搭建微信小程序架构
-date: 2019-07-24 16:28:20
-tags: [Javascript,编程,dva,Typescript]
-description: 
-copyright: false
-categories: 编程
-top:
----
 
 
 微信小程序的开发目前是很热的一个领域，有很多的开发模式，找到一种属于自己的方法才会使得开发顺心顺利。
