@@ -1,1 +1,0 @@
-module.exports = require("../../npm/core-js/library/fn/symbol/iterator.js");

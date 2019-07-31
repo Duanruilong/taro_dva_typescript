@@ -1,1 +1,0 @@
-module.exports = require("../../npm/core-js/library/fn/array/from.js");
