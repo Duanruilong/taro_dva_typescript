@@ -71,11 +71,12 @@ $ taro build --type rn --watch
 
 详细文档见：  
 [Taro-docs](https://nervjs.github.io/taro/docs/README.html)  
+
 [Taro-ui](https://github.com/NervJS/taro-ui)  
  
+[f2-canvas](https://github.com/antvis/f2-canvas)
 
-## 问题说明
-1. taro-ui@2.0.1 不兼容问题，需要还原旧版: cnpm install taro-ui@1.5.4 
+[f2 API文档](https://www.yuque.com/antv/f2/api-index)
 
 ***
 
