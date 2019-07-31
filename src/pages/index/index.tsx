@@ -35,7 +35,7 @@ class Index extends Component<IndexProps,IndexState > {
   }
 
   drawRadar(canvas, width, height){
-
+    //  雷达图
     // ⚠️ 别忘了这行
     // 为了兼容微信与支付宝的小程序，你需要通过这个命令为F2打补丁
     // F2Canvas.fixF2(F2);
